@@ -1,6 +1,6 @@
-
 <?php
 include('db.php');
+
 $query = "SELECT * FROM register natural join provinces WHERE register.provinces = provinces.PROVINCE_ID";
 $result = $conn->query($query);
 if (!$result) die($conn->error);
@@ -16,44 +16,16 @@ if (!$result) die($conn->error);
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <style>
- /* Set height of the grid so .sidenav can be 100% (adjust if needed) */
-    .row.content {height: 2100px}
-    
-    /* Set gray background color and 100% height */
-    .sidenav {
-      background-color: #ffff80;
-      height: 100%;
-    }
-    
-    /* Set black background color, white text and some padding */
-    footer {
-      background-color: #555;
-      color: white;
-      padding: 15px;
-    }
-    
-    /* On small screens, set height to 'auto' for sidenav and grid */
-    @media screen and (max-width: 767px) {
-      .sidenav {
-        height: auto;
-        padding: 15px;
-      }
-      .row.content {height: auto;} 
-    }
 
 </style>
 </head>
-<BODY BACKGROUND="A.jpg">
-
-  
+<body>
 
 <div class="container">
-
   <center><a><b><FONT FACE = "TH SarabunPSK " SIZE ="8" COLOR= "BLACK">รายชื่อผู้ลงทะเบียน</a></b></FONT></center>          
   <table class="table table-bordered" >
     <thead>
-
-      <tr bgcolor="#4dff4d">
+      <tr bgcolor="#6495ED">
         <th>ลำดับ</th>
         <th>ชื่อ-นามสกุล</th>
         <th>อีเมล์</th>
@@ -65,8 +37,7 @@ if (!$result) die($conn->error);
     </thead>
     <tbody>
       <?php while ($row = $result->fetch_array()) { ?>
-
-      <tr bgcolor="#e6ffe6">
+      <tr bgcolor="#FFFFE0">
         <td><?php echo $row['id']; ?></td>
         <td><?php echo $row['fullname']; ?></td>
         <td><?php echo $row['email']; ?></td>
@@ -83,7 +54,7 @@ if (!$result) die($conn->error);
 <center><button class="button" style="vertical-align:middle" name="info" onclick="linkto();"><span>Register</span></button></center>
 <script>
     function linkto() {
-        window.location='http://angsila.cs.buu.ac.th/~58160412/887371/lab07/register_form.php';
+        window.location='http://angsila.cs.buu.ac.th/~58160412887371/lab07/register_form.php';
     }
 </script>
 <?php  
