@@ -15,7 +15,7 @@
 <table border="0" align="left" width="1200" height="50">
         <tr bgcolor="#BFEFFF">
             <td colspan="3" align="center">
-                <a href="http://angsila.cs.buu.ac.th/~58160641/887371/lab07/register_form.php">
+                <a href="http://angsila.cs.buu.ac.th/~58160412/887371/lab07/register_form.php">
                     <font color="#000000"><FONT FACE = "TH SarabunPSK " SIZE ="5" COLOR= "BLACK">RegisterFrom</font>
             </td>
             <td colspan="3" align="center">
@@ -23,7 +23,7 @@
                     <font color="#000000"><FONT FACE = "TH SarabunPSK " SIZE ="5" COLOR= "BLACK">ER Diagram</font>
             </td>
                         <td colspan="3" align="center">
-                <a href="https://github.com/nakas17/lab07/blob/master/register_form.php">
+                <a href="https://github.com/58160412/lab07/blob/master/register_form.php">
                     <font color="#000000"><FONT FACE = "TH SarabunPSK " SIZE ="5" COLOR= "BLACK">Source Code <br>register_form</font>
             </td>
                         <td colspan="3" align="center">
