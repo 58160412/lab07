@@ -27,7 +27,7 @@
                     <font color="#000000"><FONT FACE = "TH SarabunPSK " SIZE ="5" COLOR= "BLACK">Source Code <br>register_form</font>
             </td>
                         <td colspan="3" align="center">
-                <a href="https://github.com/nakas17/lab07/blob/master/dopost.php">
+                <a href="https://github.com/58160412/lab07/blob/master/dopost.php">
                     <font color="#000000"><FONT FACE = "TH SarabunPSK " SIZE ="5" COLOR= "BLACK">Source Code <br>dopost</font>
             </td>
             <td colspan="3" align="center">
