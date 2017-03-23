@@ -1,4 +1,11 @@
 <!DOCTYPE html>
+<?php
+    include('db.php');
+
+    $query = "SELECT * FROM province";
+    $result = $conn->query($query);
+    if (!$result) die($conn->error);
+?>
 <html lang="en">
 <head>
   <title>Form Validation</title>
@@ -11,12 +18,11 @@
   
 </style> 
 
-
 <h3>แบบฟอร์มลงทะเบียน</h3>
    <table>
 <form action="dopost.php" method="post" class="a">
     ชื่อ-นามสกุล: <br/>
-    <input type="text" class="text" name="name" id="name" /> <br/>
+    <input type="text" class="text" name="fullname" id="fullname" /> <br/>
     อีเมล: <br/>
     <input type="email" class="text" name="email" id="email" /> <br/>
     เพศ: <br/>
@@ -123,7 +129,7 @@ $('#submit').on('click',function(event){
     var valid = true;
     errorMessage = "";
 
-    if ($('#name').val() == '') {
+    if ($('#fullname').val() == '') {
         errorMessage = "โปรดป้อนชื่อ-นามสกุล \n";
         valid = false;
     }
