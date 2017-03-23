@@ -35,7 +35,7 @@
     <textarea class="text" name="address" id="address" rows="4" cols="50" ></textarea>
     <br/>
     จังหวัด: <br/>
-    <select name="province" id="province">
+    <select name="provinces" id="provinces">
         <option value="">---เลือกจังหวัด---</option>
             <option value="1">กรุงเทพมหานคร   </option>
             <option value="2">สมุทรปราการ   </option>
