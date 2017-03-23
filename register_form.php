@@ -12,8 +12,30 @@
   
 </style> 
     
-
-
+<table border="0" align="left" width="1200" height="50">
+        <tr bgcolor="#FFA07A">
+            <td colspan="3" align="center">
+                <a href="http://angsila.cs.buu.ac.th/~58160412/887371/lab07/register_form.php">
+                    <font color="#000000"><FONT FACE = "TH SarabunPSK " SIZE ="5" COLOR= "BLACK">RegisterFrom</font>
+            </td>
+            <td colspan="3" align="center">
+               <a href="er.png">
+                    <font color="#000000"><FONT FACE = "TH SarabunPSK " SIZE ="5" COLOR= "BLACK">ER Diagram</font>
+            </td>
+                        <td colspan="3" align="center">
+                <a href="https://github.com/58160412/lab07/blob/master/register_form.php">
+                    <font color="#000000"><FONT FACE = "TH SarabunPSK " SIZE ="5" COLOR= "BLACK">Source Code <br>register_form</font>
+            </td>
+                        <td colspan="3" align="center">
+                <a href="https://github.com/58160412/lab07/blob/master/dopost.php">
+                    <font color="#000000"><FONT FACE = "TH SarabunPSK " SIZE ="5" COLOR= "BLACK">Source Code <br>dopost</font>
+            </td>
+            <td colspan="3" align="center">
+                <a href="https://github.com/58160412/lab07/blob/master/show_register.php">
+                    <font color="#000000"><FONT FACE = "TH SarabunPSK " SIZE ="5" COLOR= "BLACK">Source Code <br>show_register</font>
+            </td>
+            </tr>
+        </table><br><br><br>
 
 
    <h3>แบบฟอร์มลงทะเบียน</h3>
