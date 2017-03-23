@@ -10,16 +10,16 @@ echo $_POST['fullname'] . "<br />";
 echo $_POST['email'] . "<br />";
 echo $_POST['address'] . "<br />";
 
-$fulllname = $_POST['fullname'];
+$name = $_POST['fullname'];
 $email = $_POST['email'];
 $sex = $_POST['sex'];
 $intr1 = $_POST['intr1'];
 $intr2 = $_POST['intr2'];
 $address = $_POST['address'];
-$province = $_POST['province'];
+$province = $_POST['provinces'];
 
 if (isset($_POST['submit'])) {
-    $sql = "INSERT INTO register (fullname,email,sex,intr1,intr2,address,province) VALUES ('$fullname','$email','$sex','$intr1','$intr2','$address',$province)";
+    $sql = "INSERT INTO register (fullname,email,sex,intr1,intr2,address,provinces) VALUES ('$fullname','$email','$sex','$intr1','$intr2','$address',$province)";
 
     if ($conn->query($sql) === TRUE) {
         echo "New record created successfully";
