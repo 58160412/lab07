@@ -1,7 +1,7 @@
 <?php
 include('db.php');
 
-$query = "SELECT * FROM register natural join province WHERE register.province = province.PROVINCE_ID";
+$query = "SELECT * FROM register natural join provinces WHERE register.provinces = provinces.PROVINCE_ID";
 $result = $conn->query($query);
 if (!$result) die($conn->error);
 ?>
@@ -22,10 +22,10 @@ if (!$result) die($conn->error);
 <body>
 
 <div class="container">
-  <h1 align="center">รายชื่อผู้ลงทะเบียน</h1>          
-  <table class="table table-bordered">
+  <center><a><b><FONT FACE = "TH SarabunPSK " SIZE ="8" COLOR= "BLACK">รายชื่อผู้ลงทะเบียน</a></b></FONT></center>          
+  <table class="table table-bordered" >
     <thead>
-      <tr>
+      <tr bgcolor="#6495ED">
         <th>ลำดับ</th>
         <th>ชื่อ-นามสกุล</th>
         <th>อีเมล์</th>
@@ -37,7 +37,7 @@ if (!$result) die($conn->error);
     </thead>
     <tbody>
       <?php while ($row = $result->fetch_array()) { ?>
-      <tr>
+      <tr bgcolor="#FFFFE0">
         <td><?php echo $row['id']; ?></td>
         <td><?php echo $row['fullname']; ?></td>
         <td><?php echo $row['email']; ?></td>
