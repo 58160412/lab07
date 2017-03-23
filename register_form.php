@@ -15,7 +15,6 @@
 </head>
 <BODY >
 <style type="text/css">
-  
 </style> 
 
 <h3>แบบฟอร์มลงทะเบียน</h3>
