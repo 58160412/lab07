@@ -22,10 +22,10 @@ if (!$result) die($conn->error);
 <body>
 
 <div class="container">
-  <center><a><b><FONT FACE = "TH SarabunPSK " SIZE ="8" COLOR= "BLACK">รายชื่อผู้ลงทะเบียน</a></b></FONT></center>          
-  <table class="table table-bordered" >
+  <h1 align="center">รายชื่อผู้ลงทะเบียน</h1>          
+  <table class="table table-bordered">
     <thead>
-      <tr bgcolor="#6495ED">
+      <tr>
         <th>ลำดับ</th>
         <th>ชื่อ-นามสกุล</th>
         <th>อีเมล์</th>
@@ -37,7 +37,7 @@ if (!$result) die($conn->error);
     </thead>
     <tbody>
       <?php while ($row = $result->fetch_array()) { ?>
-      <tr bgcolor="#FFFFE0">
+      <tr>
         <td><?php echo $row['id']; ?></td>
         <td><?php echo $row['fullname']; ?></td>
         <td><?php echo $row['email']; ?></td>
@@ -54,7 +54,7 @@ if (!$result) die($conn->error);
 <center><button class="button" style="vertical-align:middle" name="info" onclick="linkto();"><span>Register</span></button></center>
 <script>
     function linkto() {
-        window.location='http://angsila.cs.buu.ac.th/~58160412/887371/lab07/register_form.php';
+        window.location='http://angsila.cs.buu.ac.th/~58160416/887371/lab07/register_form.php';
     }
 </script>
 <?php  
