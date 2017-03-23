@@ -155,7 +155,7 @@ $('#submit').on('click',function(event){
         valid = false;
     }
 
-    if($('#province').val() == ''){
+    if($('#provinces').val() == ''){
         errorMessage += "โปรดเลือกจังหวัด \n";
         valid = false;
     }
