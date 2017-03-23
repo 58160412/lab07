@@ -19,7 +19,7 @@ $address = $_POST['address'];
 $province = $_POST['provinces'];
 
 if (isset($_POST['submit'])) {
-    $sql = "INSERT INTO register (fullname,email,sex,intr1,intr2,address,provinces) VALUES ('$fullname','$email','$sex','$intr1','$intr2','$address',$province)";
+    $sql = "INSERT INTO register (fullname,email,sex,intr1,intr2,address,provinces) VALUES ('$fullname','$email','$sex','$intr1','$intr2','$address',$provinces)";
 
     if ($conn->query($sql) === TRUE) {
         echo "New record created successfully";
